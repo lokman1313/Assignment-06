@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
 
             <button className="btn btn-ghost">Login</button>
-         <button className='btn rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white'>Get Started</button>
+         <button className='btn rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white'>Get Started</button>
         
   </div>
 </div>

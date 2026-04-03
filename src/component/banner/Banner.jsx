@@ -24,7 +24,7 @@ software—all in one place. Start creating faster today.
 <br />
 Explore Products
       </p>
-      <button className='btn rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white'>Explore Products</button>
+      <button className='btn rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white'>Explore Products</button>
       <button className='btn btn-primary btn-outline rounded-full mx-3'><span><img src={play} alt="" /></span> Watch Demo</button>
     </div>
   </div>
