@@ -1,6 +1,7 @@
 import React from 'react';
 import banner from '../../assets/banner.png'
 import icon from '../../assets/Group 5.png'
+import play from '../../assets/Play.png'
 
 const Banner = () => {
     return (
@@ -12,7 +13,7 @@ const Banner = () => {
       className="max-w-sm rounded-lg shadow-2xl"
     />
     <div className='px-4'>
-        <div className="badge badge-soft badge-primary rounded-full flex items-center gap-2 px-4 py-3 font-semibold">
+        <div className="badge badge-soft badge-primary rounded-full flex items-center gap-2 px-4 py-3 font-semibold mb-4">
   <img src={icon} alt="icon" className="w-4 h-4" />
   <span>New: AI-Powered Tools Available</span>
   </div>
@@ -24,7 +25,7 @@ software—all in one place. Start creating faster today.
 Explore Products
       </p>
       <button className='btn rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white'>Explore Products</button>
-      <button className='btn btn-primary btn-outline rounded-full mx-3'>Watch Demo</button>
+      <button className='btn btn-primary btn-outline rounded-full mx-3'><span><img src={play} alt="" /></span> Watch Demo</button>
     </div>
   </div>
 </div>
