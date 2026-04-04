@@ -47,10 +47,10 @@ const Footer = () => {
   </nav>
 </footer>
 <div className="divider before:bg-white after:bg-white"></div>
-  <div className="w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center pb-6 text-sm gap-4 text-white">
-    <p>© 2026 Digitools. All rights reserved.</p>
+  <div className="w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center pb-6 text-sm gap-4 ">
+    <p className='text-gray-500'>© 2026 Digitools. All rights reserved.</p>
 
-    <ul className='flex gap-4'>
+    <ul className='flex gap-4 text-gray-500'>
       <li>Privacy Policy</li>
       <li>Terms of Service</li>
       <li>Cookies</li>

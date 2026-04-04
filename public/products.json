@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes with AI-powered suggestions.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "Real-time editing"
+    ],
+    "icon": "resume-icon.png"
+  },
+  {
+    "id": 2,
+    "name": "Social Media Scheduler",
+    "description": "Schedule and manage posts across all platforms easily.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best-seller",
+    "features": [
+      "Multi-platform support",
+      "Auto scheduling",
+      "Analytics dashboard",
+      "Team collaboration"
+    ],
+    "icon": "scheduler-icon.png"
+  },
+  {
+    "id": 3,
+    "name": "Logo Maker Pro",
+    "description": "Design stunning logos in minutes with smart tools.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "500+ logo templates",
+      "Drag & drop editor",
+      "High-resolution export",
+      "Custom branding kit"
+    ],
+    "icon": "logo-icon.png"
+  },
+  {
+    "id": 4,
+    "name": "Website Builder",
+    "description": "Build responsive websites without coding.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Drag & drop builder",
+      "SEO optimization",
+      "Custom domains",
+      "Hosting included"
+    ],
+    "icon": "website-icon.png"
+  },
+  {
+    "id": 5,
+    "name": "Email Marketing Tool",
+    "description": "Boost your business with powerful email campaigns.",
+    "price": 24.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best-seller",
+    "features": [
+      "Email automation",
+      "Campaign templates",
+      "Analytics reports",
+      "Subscriber management"
+    ],
+    "icon": "email-icon.png"
+  },
+  {
+    "id": 6,
+    "name": "Video Editor Pro",
+    "description": "Edit videos professionally with easy-to-use tools.",
+    "price": 49.99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "4K video editing",
+      "Transitions & effects",
+      "Audio editing",
+      "Export in multiple formats"
+    ],
+    "icon": "video-icon.png"
+  },
+  {
+    "id": 7,
+    "name": "Password Manager",
+    "description": "Securely store and manage your passwords.",
+    "price": 5.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "End-to-end encryption",
+      "Auto-fill passwords",
+      "Multi-device sync",
+      "Secure vault"
+    ],
+    "icon": "password-icon.png"
+  },
+  {
+    "id": 8,
+    "name": "Cloud Storage Plus",
+    "description": "Store and access your files from anywhere.",
+    "price": 99.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best-seller",
+    "features": [
+      "1TB storage",
+      "File sharing",
+      "Backup & restore",
+      "Secure access"
+    ],
+    "icon": "cloud-icon.png"
+  },
+  {
+    "id": 9,
+    "name": "AI Content Writer",
+    "description": "Generate high-quality content for blogs, ads, and social media.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Blog & ad copy generation",
+      "SEO optimization",
+      "Multiple tone styles",
+      "Fast content creation"
+    ],
+    "icon": "writer-icon.png"
+  }
+]
