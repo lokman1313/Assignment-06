@@ -1,4 +1,4 @@
-import { Suspense } from 'react';
+import { Suspense, useState } from 'react';
 import './App.css';
 import About from './component/abutUs/About';
 import Banner from './component/banner/Banner';
@@ -12,15 +12,16 @@ import ProductCards from './component/productCards/ProductCards';
 const productDeteils= fetch('/products.json').then(res =>res.json())
 
 function App() {
+  const [countCrate,setCountCrate]=useState('')
 
   return (
     <>
-     <Navbar></Navbar>
+     <Navbar countCrate={countCrate}></Navbar>
      <Banner></Banner>
      <About></About>
 
      <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
-     <ProductCards productDeteils={productDeteils}></ProductCards>
+     <ProductCards productDeteils={productDeteils} setCountCrate={setCountCrate} countCrate={countCrate}></ProductCards>
      </Suspense>
 
      <GetStarted></GetStarted>

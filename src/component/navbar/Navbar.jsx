@@ -2,8 +2,9 @@ import React from 'react';
 import cart from '../../assets/shopping-cart.png'
 import logo from '../../assets/DigiTools.png'
 
-const Navbar = () => {
+const Navbar = ({countCrate}) => {
     return (
+      <div className='sticky top-0 z-10'>
        <div className="bg-base-100 shadow-sm flex justify-around items-center p-3">
    <div className=''>
     <img src={logo} alt="" />
@@ -20,7 +21,7 @@ const Navbar = () => {
   <div className="flex justify-center items-center space-x-3">
      <div className="indicator">
           <img src={cart} alt="" />
-          <span className="indicator-item text-red-400">8</span>
+          <span className="indicator-item text-red-400">{countCrate}</span>
         </div>
 
             <button className="btn btn-ghost">Login</button>
@@ -28,6 +29,7 @@ const Navbar = () => {
         
   </div>
 </div>
+      </div>
     );
 };
 

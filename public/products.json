@@ -13,7 +13,7 @@
       "Export to PDF",
       "Real-time editing"
     ],
-    "icon": "resume-icon.png"
+    "icon": "https://i.ibb.co.com/ZR620SRp/writing-2327400-1.png"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       "Analytics dashboard",
       "Team collaboration"
     ],
-    "icon": "scheduler-icon.png"
+    "icon": "https://i.ibb.co.com/tPxvCjcP/social-media.png"
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
       "High-resolution export",
       "Custom branding kit"
     ],
-    "icon": "logo-icon.png"
+    "icon": "https://i.ibb.co.com/3mWv62N6/design-tool.png"
   },
   {
     "id": 4,
@@ -61,7 +61,7 @@
       "Custom domains",
       "Hosting included"
     ],
-    "icon": "website-icon.png"
+    "icon": "https://i.ibb.co.com/Wpxyzmnz/operation.png"
   },
   {
     "id": 5,
@@ -77,7 +77,7 @@
       "Analytics reports",
       "Subscriber management"
     ],
-    "icon": "email-icon.png"
+    "icon": "https://i.ibb.co.com/tPxvCjcP/social-media.png"
   },
   {
     "id": 6,
@@ -93,7 +93,7 @@
       "Audio editing",
       "Export in multiple formats"
     ],
-    "icon": "video-icon.png"
+    "icon": "https://i.ibb.co.com/p68XkPgn/camera-8775444-1.png"
   },
   {
     "id": 7,
@@ -109,7 +109,7 @@
       "Multi-device sync",
       "Secure vault"
     ],
-    "icon": "password-icon.png"
+    "icon": "https://i.ibb.co.com/Ndxkssb2/portfolio.png"
   },
   {
     "id": 8,
@@ -125,7 +125,7 @@
       "Backup & restore",
       "Secure access"
     ],
-    "icon": "cloud-icon.png"
+    "icon": "https://i.ibb.co.com/Wpxyzmnz/operation.png"
   },
   {
     "id": 9,
@@ -141,6 +141,6 @@
       "Multiple tone styles",
       "Fast content creation"
     ],
-    "icon": "writer-icon.png"
+    "icon": "https://i.ibb.co.com/ZR620SRp/writing-2327400-1.png"
   }
 ]
