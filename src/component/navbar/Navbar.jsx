@@ -3,6 +3,8 @@ import cart from '../../assets/shopping-cart.png'
 import logo from '../../assets/DigiTools.png'
 
 const Navbar = ({countCrate}) => {
+
+
     return (
       <div className='sticky top-0 z-10'>
        <div className="bg-base-100 shadow-sm flex justify-around items-center p-3">
@@ -19,9 +21,12 @@ const Navbar = ({countCrate}) => {
     </ul>
   </div>
   <div className="flex justify-center items-center space-x-3">
-     <div className="indicator">
-          <img src={cart} alt="" />
-          <span className="indicator-item text-red-400">{countCrate}</span>
+     <div className="relative">
+          <img className='w-full' src={cart} alt="cart" />
+          {
+            countCrate===0? " " : <span className="absolute -top-4 left-3 badge p-2 badge-error badge-soft rounded-full font-semibold">{countCrate}</span>
+          }
+          
         </div>
 
             <button className="btn btn-ghost">Login</button>

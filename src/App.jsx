@@ -12,16 +12,17 @@ import ProductCards from './component/productCards/ProductCards';
 const productDeteils= fetch('/products.json').then(res =>res.json())
 
 function App() {
-  const [countCrate,setCountCrate]=useState('')
+  const [countCrate,setCountCrate]=useState(0)
+   const [selectedProducts,setSelectedProducts]=useState([]);
 
   return (
     <>
-     <Navbar countCrate={countCrate}></Navbar>
+     <Navbar countCrate={selectedProducts.length} ></Navbar>
      <Banner></Banner>
      <About></About>
 
      <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
-     <ProductCards productDeteils={productDeteils} setCountCrate={setCountCrate} countCrate={countCrate}></ProductCards>
+     <ProductCards productDeteils={productDeteils} selectedProducts={selectedProducts} setSelectedProducts={setSelectedProducts}></ProductCards>
      </Suspense>
 
      <GetStarted></GetStarted>
